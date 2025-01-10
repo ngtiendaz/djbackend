@@ -1,0 +1,12 @@
+from rest_framework import serializers
+from . import models
+
+class AddressSerializer(serializers.ModelSerializer):
+    class Meta: 
+        model= models.Address
+        fields = "__all__"
+        
+class EtrasSerializer(serializers.ModelSerializer):
+    class Meta: 
+        model= models.Address
+        fields = "__all__"
